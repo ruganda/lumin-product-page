@@ -1,4 +1,4 @@
-https://travis-ci.org/ruganda/lumin-product-page.svg?branch=main
+[![Build Status](https://travis-ci.org/ruganda/lumin-product-page.svg?branch=main)](https://travis-ci.org/ruganda/lumin-product-page)
 
 
 # Project overview
