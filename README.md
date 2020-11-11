@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/ruganda/lumin-product-page.svg?branch=main)](https://travis-ci.org/ruganda/lumin-product-page)
-
-
 
 # Project overview
 - This is project challenge where I have recreating the luminskin.com product page and cart using a [GraphQL API](https://pangaea-interviews.now.sh/api/graphql)
