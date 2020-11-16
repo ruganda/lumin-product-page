@@ -33,6 +33,7 @@ describe('test render the App component', ()=>{
 describe('test render the Products component', ()=>{
 
   const product = {
+    id: 1,
     title: 'Gel',
     price: 50,
     image_url: ''
@@ -59,6 +60,7 @@ describe('test render the Products component', ()=>{
 });
 
 it('it should add products to the cart when add to cart button is clicked', () => {
+  const setcart = jest.fn()
   const props = {
     setopenCart: jest.fn(),
     cart: [],
@@ -73,7 +75,7 @@ it('it should add products to the cart when add to cart button is clicked', () =
   }
 
   const wrapper = shallow(
-    < Products {...props}/>
+    < Products  setcart={setcart} {...props}/>
   ) 
   const button = wrapper.find('.cart-button')
   button.simulate('click')
