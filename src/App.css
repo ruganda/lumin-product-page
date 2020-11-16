@@ -42,9 +42,12 @@
 }
 
 .product-image{
-  width: 100px;
-  height:100px;
-  margin-bottom: 15px;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 170px;
+  flex: 1 1 0%;
+  height: auto;
+  /* margin-bottom: 15px; */
 }
 
 .cart-button{
@@ -220,4 +223,10 @@ input[type="number"] {
   overflow-y: scroll;
   height: 88.7%;
   width: 100%;
+}
+
+.product-container{
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
 }

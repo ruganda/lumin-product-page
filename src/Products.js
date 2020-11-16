@@ -36,7 +36,7 @@ function Products({
     {
       products.map((product)=>{
       return(
-          <div key ={product.id} style={{padding: '10px'}}>
+          <div key ={product.id} style={{padding: '10px'}} className="product-container">
             <img 
             src={product.image_url}
             alt={'product'} 
